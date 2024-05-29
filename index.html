@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timed Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #quizContainer {
+            margin-bottom: 20px;
+        }
+        #marks {
+            font-size: 20px;
+            color: green;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Time!</h1>
+    <div>Time Remaining: <span id="time">05:00</span></div>
+    <div id="quizContainer"></div> <!-- Quiz questions will be dynamically inserted here -->
+    <button id="submitQuiz">Submit Quiz</button> <!-- Button to submit quiz -->
+    <div id="marks"></div> <!-- Results will be displayed here -->
+    <script src="index.js"></script>
+</body>
+</html>
